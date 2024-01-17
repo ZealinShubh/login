@@ -1,0 +1,38 @@
+*::after,
+*::before,
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(51, 51, 51);
+
+}
+
+body {
+  margin: 0;
+}
+
+.d-flex {
+  display: flex;
+}
+
+:root {
+  --bar-width: 45px;
+  --bar-height: 3px;
+  --hamburger-gap: 8px;
+  --foreground: #333;
+  --background: white;
+  --hamburger-margin: 8px;
+  --animation-timing: 200ms ease-in-out;
+  --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
+}
+
+.opacity-0 {
+  transition: .3s;
+  opacity: 0;
+}
+
+.opacity-1 {
+  transition: .3s;
+  opacity: 1;
+}

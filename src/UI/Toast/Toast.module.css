@@ -1,0 +1,45 @@
+.toast {
+  display: flex;
+  position: absolute;
+  bottom: 1rem;
+  width: 400px;
+  justify-content: space-between;
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: 0px 10px 30px 10px rgba(0, 0, 0, 0.07);
+}
+
+.close {
+  cursor: pointer;
+  border: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50px;
+  align-self: center;
+}
+
+.opacity-0 {
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.opacity-1 {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+.danger {
+  border-bottom: solid 2px #dc3545;
+}
+
+.success {
+  border-bottom: solid 2px #28a745;
+}
+
+.info {
+  border-bottom: solid 2px #17a2b8;
+}
+
+.warning {
+  border-bottom: solid 2px #ffc107;
+}

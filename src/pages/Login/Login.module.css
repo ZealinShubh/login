@@ -1,0 +1,105 @@
+.main {
+  display: flex;
+  justify-content: center;
+  height: 700px;
+  align-items: center;
+}
+
+.inputs-div {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.err-msg-div {
+  font-size: 13px;
+  color: rgba(255, 109, 72, 0.938);
+}
+
+.form {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  border-radius: 10px;
+
+  box-shadow: 0px 10px 30px 10px rgba(0, 0, 0, 0.07);
+}
+
+.form input {
+  border: none;
+  border-bottom: solid 1px rgb(156, 156, 156);
+  outline: none;
+  padding-bottom: .25rem;
+  font-size: 16px;
+}
+
+.form input:focus {
+  border-bottom: solid 1px rgb(80, 80, 80);
+}
+
+.form button {
+  padding-top: .7rem;
+  padding-bottom: .7rem;
+  outline: none;
+  border-radius: 6px;
+  border: none;
+  margin-top: .5rem;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.form button:hover {
+  transform: .2s;
+  transition: 0.2s ease-in-out;
+  color: #fff;
+  background-color: rgb(92, 116, 239);
+}
+
+.heading {
+  margin-top: 1.5rem;
+  font-size: 22px;
+  margin-bottom: 1.5rem;
+}
+
+.p-link {
+  margin-left: auto;
+  margin-top: 2rem;
+  font-size: 14px;
+}
+
+.link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.user-image {
+  align-self: center;
+  background-color: #f0f0f0;
+  height: 120px;
+  width: 120px;
+  display: flex;
+  border-radius: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+}
+
+.head {
+  height: 40px;
+  width: 40px;
+  background-color: #cfcfcf;
+  border-radius: 50%;
+}
+
+.body {
+  margin-bottom: -35px;
+  height: 70px;
+  width: 70px;
+  background-color: #cfcfcf;
+  border-radius: 30%;
+}
